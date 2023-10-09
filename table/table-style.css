@@ -1,0 +1,22 @@
+body{
+    background-image: url("img/maxresdefault.jpg");
+    background-size: cover;
+}
+
+table,th{
+    border:double 3px blanchedalmond;
+    border-radius: 10px;
+    border-collapse:collapse;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: slateblue;
+}
+td{
+    font-size: 40px;
+    color:dodgerblue ;
+}
+
+img{
+    width: 300px;
+    height: 270px;
+}
