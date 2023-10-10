@@ -1,0 +1,16 @@
+div{
+background-color: rgba(63, 127, 238, 0.941);
+}
+span{
+    border: 2px darkblue;
+    background-color: aquamarine;
+}
+.ss{
+    color: aquamarine;
+}
+#hobby{
+    color: red;
+}
+#like{
+    color: blue;
+}
