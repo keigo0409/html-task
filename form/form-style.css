@@ -1,0 +1,13 @@
+input[text]{
+    margin-right: 0.5rem;
+
+}
+type{
+    margin: 30px;
+}
+body{
+    line-height: 2;
+}
+p{
+    font-size: 0.7rem;
+}

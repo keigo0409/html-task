@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入力フォーム</title>
+    <link rel="Stylesheet" href="form-style.css">
+</head>
+<body>
+    <h1>会員登録</h1><br>
+
+    以下の情報を入力し、確認ボタンを押してください。
+
+    <form action="#" method="post"></form>
+    姓　　　　　　　　　<input type="text" name="last_name"><br>
+    名　　　　　　　　　<input type="text" name="first_name"><br>
+    住所　　　　　　　　<input type="text" name="address"><br>
+    メールアドレス　　　<input type="email" name="email"><br>
+    電話番号　　　　　　<input type="tel" name="tel"><br>
+    生年月日　　　　　　<input type="date" name="birthday"><br>
+    年齢　　　　　　　　<input type="number" name="age" min="0" max="150"><br>
+    性別　　　　　　　　<label>  <input type="radio" name="gender" value="0" required>男</label> 
+        <label>  <input type="radio" name="gender" value="1">女</label>
+        <label>  <input type="radio" name="gender" value="2">その他<br></label>
+
+    パスワード　　　　　<input type="password" name="password"><br>
+    パスワードの確認　　<input type="password" name="password_confirm"><br>
+
+    希望するメールマガジンを選んでください。<br>
+    <label>  <input type="radio" name="magazine" value="1" required>IT</label> 
+        <label>  <input type="radio" name="magazine" value="2">接客</label>
+        <label>  <input type="radio" name="magazine" value="2">営業</label>
+        <label>  <input type="radio" name="magazine" value="3">医療<br></label>
+
+        <input type="checkbox" name="ok" require>
+        <a href="terms.html" name="terms" target="_blank" value="agree">利用規約を確認する<br></a>
+
+    <button type = "submit"> 確認 </button>
+    <button type = "reset"> クリア </button>
+
+    
+    
+    
+    
+</body>
+</html>
