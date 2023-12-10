@@ -1,0 +1,19 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+}
+
+h1{
+    padding: 2%;
+    border-top: 3px solid paleturquoise;
+    border-bottom: 3px solid paleturquoise;
+}
+
+.mark-list{
+    padding: 2%;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,22 @@
+.his{
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1.5rem;
+    background-color: #f5f8fa;
+    text-align: center;
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    height: 50%;
+    border-bottom: 5px solid rgb(209, 190, 190);
+    list-style-image: url(img/favicon\ \(3\).ico);
+}
+p{
+    font-size: 1.2rem;
+    padding: 2%;
+}
+h1{
+    padding: 2%;
+    border-top: 3px solid paleturquoise;
+    border-bottom: 3px solid paleturquoise;
+}

@@ -1,0 +1,38 @@
+#SRA{
+    display: flex;
+    padding: 20px;
+    background-color: #f5f8fa;
+    width: 100%;
+    margin: auto;
+    height: 50%;
+}
+
+#SRA2{
+    width: 60%;
+}
+
+
+#SRA3{
+    width: 40%;
+}
+
+
+#SRA2 img{
+    height: 20rem;
+    width: 45rem;
+}
+
+
+#SRA3 img{
+    height: 20rem;
+    
+}
+h1{
+    padding: 2%;
+    border-top: 3px solid paleturquoise;
+    border-bottom: 3px solid paleturquoise;
+}
+
+p{
+    font-size: 1.2rem;
+}
