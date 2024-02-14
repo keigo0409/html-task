@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="Character.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Yuji+Syuku&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="../img/favicon (5).ico">
+    <title>Character</title>
+</head>
+
+<header>
+    <div class="nav" id="fade-in-bottom">
+        <h1><a href="../index.html">FAN-XIE</a></h1>
+        <ul class="ul1">
+            <li><a class="listory" href="../Story/Story.html"><span class="Story">Story</span></a></li>
+            <li><a class="licharacter" href="../Character/Character.html"><span class="Character">Character</span></a>
+            </li>
+            <li><a class="liplay" href="../play/play.html"><span class="Play">Play</span></a></li>
+            <li><a class="lisiteinfo" href="../siteinfo/sitoinfo.html"><span class="Siteinfo">Siteinfo</span></a></li>
+        </ul>
+    </div>
+</header>
+<h3 class="h3">キャラクター紹介</h3>
+
+<body>
+    <div class="div1">
+        <ul>
+            <a href="#sinsei">
+                <li>新生エオルゼア編</li>
+            </a>
+            <a href="#souten">
+                <li>蒼天のイシュガルド編</li>
+            </a>
+            <a href="#guren">
+                <li>紅蓮のリベレーター編</li>
+            </a>
+
+
+        </ul>
+    </div>
+
+    <div class="div2">
+        <p id="sinsei">新生エオルゼア編</p>
+        <table>
+            <tbody>
+                <tr>
+                    <th><img src="../img/character2.jpg" alt="">ミンフィリア・ウォード</th>
+                    <th><img src="../img/character3.jpg" alt="">アルフィノ・ルヴェユール</th>
+                    <th><img src="../img/character4.jpg" alt="">アリゼー・ルヴェユール</th>
+                    <th><img src="../img/character5.jpg" alt="">サンクレッド・ウォータース</th>
+                    <th><img src="../img/character7.jpg" alt="">ウリエンジェ・オギュレ</th>
+                    <th><img src="../img/character8.jpg" alt="">イダ・ヘクスト</th>
+                    <th><img src="../img/character9.jpg" alt="">パパリモ・トトリモ</th>
+                    <th><img src="../img/character10.jpg" alt="">カヌ・エ・センナ</th>
+                    <th><img src="../img/character11.jpg" alt="">ラウバーン・アルディン</th>
+                    <th><img src="../img/character12.jpg" alt="">メルウィブ・ブルーフィスウィン</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <p id="souten">蒼天のイシュガルド編</p>
+        <table>
+            <tbody>
+                <tr>
+                    <th><img src="../img/character13.jpg" alt="">アイメリク・ド・ボーレル</th>
+                    <th><img src="../img/character14.jpg" alt="">オルシュファン・グレイストーン</th>
+                    <th><img src="../img/character15.jpg" alt="">エスティニアン</th>
+                    <th><img src="../img/character16.jpg" alt="">クルル・バルデシオン</th>
+                    <th><img src="../img/character17.jpg" alt="">イゼル・ダングラン</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <p id="guren">紅蓮のリベレーター編</p>
+        <table>
+            <tbody>
+                <th><img src="../img/character18.jpg" alt="">ヒエン・リジン</th>
+                <th><img src="../img/character19.jpg" alt="">ユウギリ</th>
+                <th><img src="../img/character20.jpg" alt="">ゴウセツ・ダイトウ</th>
+                <th><img src="../img/character21.jpg" alt="">ヨツユ・ゴー・ブルトゥス</th>
+                <th><img src="../img/character22.jpg" alt="">ゼノス・イェー・ガルヴァス</th>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="js-scroll-top" class="scroll-top">TOP</div>
+
+    <script>
+        const PageTopBtn = document.getElementById('js-scroll-top');
+        PageTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+
+</html>
